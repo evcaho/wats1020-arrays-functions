@@ -7,7 +7,7 @@ var truncateWords = function(longText, numWords) {
 	var length = words.length;
 	// 3. Determine how many words should be removed from the String
 	// 4. Remove those words from the Array
-	var shorter = words.slice(0, wordLimit)
+	var shorter = words.slice(0, numWords)
 	// 6. Use the join() function to convert the Array back into a String
 	shortArray = shorter.join(' ')
 	// 7. Return the truncated String from the Function
